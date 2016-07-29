@@ -667,11 +667,11 @@ h3
     position: relative;
 
     width: 50px;
+    margin-bottom: 100px;
 
     border-right: 25px solid transparent;
     border-bottom: 25px solid #ccc;
     border-left: 25px solid transparent;
-    margin-bottom: 100px;
 }
 
 .diamond:after
@@ -700,10 +700,10 @@ h3
     height: 48px;
 
     border-width: 2px 2px 50px 2px;
+    border-style: solid;
+    border-color: red;
     border-radius: 100%;
     background: #ccc;
-    border-color: red;
-    border-style: solid;
 }
 
 .yin-yang:before
@@ -711,16 +711,17 @@ h3
     position: absolute;
     top: 50%;
     left: 0;
-    background: #ccc;
+
     width: 0;
+    width: 12px;
     height: 0;
-
-    content: "";
-
-    border:18px solid red;
-    border-radius: 100%;
-    width:12px;
     height: 12px;
+
+    content: '';
+
+    border: 18px solid red;
+    border-radius: 100%;
+    background: #ccc;
 }
 
 .yin-yang:after
@@ -728,13 +729,14 @@ h3
     position: absolute;
     top: 50%;
     left: 50%;
-    background: red;
 
-    content: "";
-
-    border:18px solid #ccc;
-    border-radius: 100%;
-    width:12px;
+    width: 12px;
     height: 12px;
+
+    content: '';
+
+    border: 18px solid #ccc;
+    border-radius: 100%;
+    background: red;
 }
 /* end 阴阳八卦 样式*/
