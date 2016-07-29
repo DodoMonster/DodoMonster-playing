@@ -1,0 +1,740 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+div
+{
+    margin: 30px auto;
+
+    text-align: center;
+}
+
+h3
+{
+    text-align: center;
+}
+
+/* 正方形 样式如上div */
+.square
+{
+    line-height: 100px;
+
+    width: 100px;
+    height: 100px;
+
+    border: 1px solid #eee;
+    background: #ccc;
+}
+
+/* start 矩形 样式 */
+.rectangle
+{
+    line-height: 100px;
+
+    width: 200px;
+    height: 100px;
+
+    border: 1px solid #eee;
+    background: #ccc;
+}
+/* end 矩形 样式 */
+
+/* start 圆形 样式*/
+.circle
+{
+    line-height: 100px;
+
+    width: 100px;
+    height: 100px;
+
+    border: 1px solid #eee;
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+    background: #ccc;
+
+         -o-border-radius: 50%;
+}
+/* end 圆型 样式*/
+
+/* start 椭圆样式*/
+.ellipse
+{
+    line-height: 100px;
+
+    width: 200px;
+    height: 100px;
+
+    border: 1px solid #eee;
+    -webkit-border-radius: 70%;
+       -moz-border-radius: 70%;
+            border-radius: 70%;
+    background: #ccc;
+
+         -o-border-radius: 70%;
+}
+/* end 椭圆 样式*/
+
+/* start 上三角 样式*/
+.top-triangle
+{
+    width: 0;
+    height: 0;
+
+    border-top: none;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #ccc;
+    border-left: 50px solid transparent;
+}
+/* end 上三角 样式*/
+
+/* start 下三角 样式*/
+.bottom-triangle
+{
+    width: 0;
+    height: 0;
+
+    border-top: 100px solid #ccc;
+    border-right: 50px solid transparent;
+    border-bottom: none;
+    border-left: 50px solid transparent;
+}
+/* end 下三角 样式*/
+
+/* start 左三角 样式*/
+.left-triangle
+{
+    width: 0;
+    height: 0;
+
+    border-top: 50px solid transparent;
+    border-right: 100px solid #ccc;
+    border-bottom: 50px solid transparent;
+}
+/* end 左三角 样式*/
+
+/* start 右三角 样式*/
+.right-triangle
+{
+    width: 0;
+    height: 0;
+
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 100px solid #ccc;
+}
+/* end 右三角 样式*/
+
+/* start 左上三角 样式*/
+.leftTop-triangle
+{
+    width: 0;
+    height: 0;
+
+    border-top: 100px solid #ccc;
+    border-right: 100px solid transparent;
+}
+/* end 左上三角 样式*/
+
+/* start 右上三角 样式*/
+.rightTop-triangle
+{
+    width: 0;
+    height: 0;
+
+    border-top: 100px solid #ccc;
+    border-left: 100px solid transparent;
+}
+/* end 右上三角 样式*/
+
+/* start 左下三角 样式*/
+.leftBottom-triangle
+{
+    width: 0;
+    height: 0;
+
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid #ccc;
+}
+/* end 左下三角 样式*/
+
+/* start 右下三角 样式*/
+.rightBottom-triangle
+{
+    width: 0;
+    height: 0;
+
+    border-bottom: 100px solid #ccc;
+    border-left: 100px solid transparent;
+}
+/* end 右下三角 样式*/
+
+/*start 平行四边形 样式*/
+.parallelogram
+{
+    width: 200px;
+    height: 100px;
+
+    -webkit-transform: skew(20deg);
+       -moz-transform: skew(20deg);
+         -o-transform: skew(20deg);
+            transform: skew(20deg);
+
+    background: #ccc;
+}
+/*end 平行四边形 样式*/
+
+/*start 梯形 样式*/
+.trapezoid
+{
+    width: 100px;
+    height: 0;
+
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #ccc;
+    border-left: 50px solid transparent;
+}
+/* end 梯形 样式*/
+
+/* start 六角星 样式 */
+.six-corner-star
+{
+    position: relative;
+
+    width: 0;
+    height: 0;
+
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #ccc;
+    border-left: 50px solid transparent;
+}
+
+.six-corner-star:before
+{
+    position: absolute;
+    top: 25px;
+    left: -50px;
+
+    width: 0;
+    height: 0;
+
+    content: '';
+
+    border-top: 100px solid #ccc;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+}
+/* end 六角星 样式*/
+
+/* start 五角星 样式 */
+.five-corner-star
+{
+    position: relative;
+
+    width: 0;
+    height: 0;
+    margin-top: 60px;
+
+    -webkit-transform: rotate(35deg);
+       -moz-transform: rotate(35deg);
+        -ms-transform: rotate(35deg);
+         -o-transform: rotate(35deg);
+            transform: rotate(35deg);
+
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid #ccc;
+    border-left: 100px solid transparent;
+}
+
+.five-corner-star:before
+{
+    position: absolute;
+    top: -40px;
+    left: -55px;
+
+    width: 0;
+    height: 0;
+
+    content: '';
+    -webkit-transform: rotate(-35deg);
+       -moz-transform: rotate(-35deg);
+        -ms-transform: rotate(-35deg);
+         -o-transform: rotate(-35deg);
+            transform: rotate(-35deg);
+
+    border-right: 30px solid transparent;
+    border-bottom: 80px solid #ccc;
+    border-left: 30px solid transparent;
+}
+
+.five-corner-star:after
+{
+    position: absolute;
+    top: 0;
+    left: -100px;
+
+    width: 0;
+    height: 0;
+
+    content: '';
+    -webkit-transform: rotate(-70deg);
+       -moz-transform: rotate(-70deg);
+        -ms-transform: rotate(-70deg);
+         -o-transform: rotate(-70deg);
+            transform: rotate(-70deg);
+
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid #ccc;
+    border-left: 100px solid transparent;
+}
+/* end 五角星 样式*/
+
+/* start 五角大楼 样式*/
+.five-corner-building
+{
+    position: relative;
+
+    width: 50px;
+    margin: 50px auto;
+
+    border-width: 50px 18px 0;
+    border-style: solid;
+    border-color: #ccc transparent;
+}
+.five-corner-building:before
+{
+    position: absolute;
+    top: -80px;
+    left: -20px;
+
+    content: '';
+
+    border-width: 0 45px 30px;
+    border-style: solid;
+    border-color: #ccc transparent;
+}
+
+
+/* end 五角大楼 样式*/
+
+/* start 六边形 样式*/
+.six-edge-shape
+{
+    position: relative;
+
+    width: 100px;
+    height: 55px;
+    margin-bottom: 50px;
+
+    background: #ccc;
+}
+.six-edge-shape:before
+{
+    position: absolute;
+    top: -25px;
+    left: 0;
+
+    content: '';
+
+    border-width: 0 50px 25px;
+    border-style: solid;
+    border-color: #ccc transparent;
+}
+
+.six-edge-shape:after
+{
+    position: absolute;
+    top: 55px;
+    left: 0;
+
+    content: '';
+
+    border-width: 25px 50px 0;
+    border-style: solid;
+    border-color: #ccc transparent;
+}
+/* end 六边形 样式*/
+
+
+/* start 八边形 样式*/
+.eight-edge-shape
+{
+    position: relative;
+
+    width: 100px;
+    height: 30px;
+    margin-bottom: 50px;
+
+    background: #ccc;
+}
+.eight-edge-shape:before
+{
+    position: absolute;
+    top: -29px;
+    left: 0;
+
+    width: 42px;
+    height: 0;
+
+    content: '';
+
+    border-right: 29px solid transparent;
+    border-bottom: 29px solid #ccc;
+    border-left: 29px solid transparent;
+}
+
+.eight-edge-shape:after
+{
+    position: absolute;
+    top: 30px;
+    left: 0;
+
+    width: 42px;
+    height: 0;
+
+    content: '';
+
+    border-top: 29px solid #ccc;
+    border-right: 29px solid transparent;
+    border-left: 29px solid transparent;
+}
+/* end 八边形 样式*/
+
+/* start 爱心 样式*/
+.heart
+{
+    position: relative;
+
+    width: 100px;
+    margin-bottom: 130px;
+}
+
+.heart:before,
+.heart:after
+{
+    position: absolute;
+    top: 0;
+    left: 50px;
+
+    width: 50px;
+    height: 80px;
+
+    content: '';
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+
+    -webkit-border-radius: 50px 50px 0 0;
+       -moz-border-radius: 50px 50px 0 0;
+            border-radius: 50px 50px 0 0;
+    background-color: #ccc;
+
+         -o-border-radius: 50px 50px 0 0;
+        -ms-border-radius: 50px 50px 0 0;
+}
+
+.heart:after
+{
+    top: -35px;
+    left: 17px;
+
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+
+    -webkit-border-radius: 50px 50px 0 0;
+       -moz-border-radius: 50px 50px 0 0;
+            border-radius: 50px 50px 0 0;
+
+         -o-border-radius: 50px 50px 0 0;
+        -ms-border-radius: 50px 50px 0 0;
+}
+/* end 爱心样式*/
+
+/* start 无穷大 样式*/
+.infinity
+{
+    position: relative;
+
+    width: 212px;
+    height: 100px;
+}
+
+.infinity:before,
+.infinity:after
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 60px;
+    height: 60px;
+
+    content: '';
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+
+    border: 20px solid #ccc;
+    -webkit-border-radius: 50px 50px 0 50px;
+       -moz-border-radius: 0 100%;
+            border-radius: 50px 50px 0 50px;
+
+        -ms-border-radius: 0 100%;
+         -o-border-radius: 0 100%;
+}
+
+.infinity:after
+{
+    top: 0;
+    left: 110px;
+
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+
+    -webkit-border-radius: 0 50px 50px 50px;
+       -moz-border-radius: 0 50px 50px 50px;
+            border-radius: 0 50px 50px 50px;
+
+         -o-border-radius: 0 50px 50px 50px;
+        -ms-border-radius: 0 50px 50px 50px;
+}
+/* end 无穷大样式*/
+
+/* start 鸡蛋 样式*/
+.egg
+{
+    position: relative;
+
+    width: 126px;
+    height: 180px;
+
+    -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+       -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+            border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    background: #ccc;
+
+         -o-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+        -ms-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+/* end 鸡蛋样式*/
+
+/* start 食逗人 样式*/
+.pacman
+{
+    position: relative;
+
+    width: 0;
+    height: 0;
+
+    border-top: 60px solid #ccc;
+    border-right: 60px solid transparent;
+    border-bottom: 60px solid #ccc;
+    border-left: 60px solid #ccc;
+    -webkit-border-radius: 60px;
+       -moz-border-radius: 60px;
+            border-radius: 60px;
+
+         -o-border-radius: 60px;
+        -ms-border-radius: 60px;
+}
+/* end 食逗人样式*/
+
+/* start 提示对话框 样式*/
+.tip-block
+{
+    position: relative;
+
+    width: 150px;
+    height: 80px;
+
+    border: 1px solid #ccc;
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+    background: #ccc;
+
+         -o-border-radius: 10px;
+        -ms-border-radius: 10px;
+}
+
+.tip-block:before
+{
+    position: absolute;
+    top: 6px;
+    left: -18px;
+
+    content: '';
+
+    border-top: 25px solid transparent;
+    border-right: 25px solid #ccc;
+    border-bottom: 25px solid transparent;
+}
+/* end 提示对话框 样式*/
+
+/* start 八角星 样式*/
+.eight-corner-star
+{
+    position: relative;
+
+    width: 100px;
+    height: 100px;
+
+    transform: rotate(20deg);
+
+    border: 1px solid #ccc;
+    background: #ccc;
+}
+
+.eight-corner-star:before
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100px;
+    height: 100px;
+
+    content: '';
+    transform: rotate(135deg);
+
+    background: #ccc;
+}
+
+/* end 八角星 样式*/
+
+/* start 十二角星 样式*/
+.twelve-corner-star
+{
+    position: relative;
+
+    width: 100px;
+    height: 100px;
+
+    border: 1px solid #ccc;
+    background: #ccc;
+}
+
+.twelve-corner-star:before
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100px;
+    height: 100px;
+
+    content: '';
+    transform: rotate(30deg);
+
+    background: #ccc;
+}
+.twelve-corner-star:after
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100px;
+    height: 100px;
+
+    content: '';
+    transform: rotate(60deg);
+
+    background: #ccc;
+}
+/* end 十二角星 样式*/
+
+/* start 钻石样式*/
+.diamond
+{
+    position: relative;
+
+    width: 50px;
+
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid #ccc;
+    border-left: 25px solid transparent;
+    margin-bottom: 100px;
+}
+
+.diamond:after
+{
+    position: absolute;
+    top: 25px;
+    left: -23px;
+
+    width: 0;
+    height: 0;
+
+    content: '';
+
+    border-top: 70px solid #ccc;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+}
+/* end 钻石 样式*/
+
+/* start 阴阳八卦 样式*/
+.yin-yang
+{
+    position: relative;
+
+    width: 96px;
+    height: 48px;
+
+    border-width: 2px 2px 50px 2px;
+    border-radius: 100%;
+    background: #ccc;
+    border-color: red;
+    border-style: solid;
+}
+
+.yin-yang:before
+{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: #ccc;
+    width: 0;
+    height: 0;
+
+    content: "";
+
+    border:18px solid red;
+    border-radius: 100%;
+    width:12px;
+    height: 12px;
+}
+
+.yin-yang:after
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: red;
+
+    content: "";
+
+    border:18px solid #ccc;
+    border-radius: 100%;
+    width:12px;
+    height: 12px;
+}
+/* end 阴阳八卦 样式*/
